@@ -76,8 +76,8 @@ $query_builder = TRUE;
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => 'onprogre_aski123i',
-	'password' => '%J]XIX{NrlG4',
+	'username' => 'onprogre_hikal',
+	'password' => '!1M=s$cZ1-J,',
 	'database' => 'onprogre_hikal',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',

@@ -13,8 +13,8 @@ class Hibrida extends CI_Controller
     public function besar()
     {
         $data = [
-            "page" => "hibrida/data_hibrida_besar",
-            "hibrida_besar"         => $this->hikal->data_hibrida_besar(),
+            "page"              => "hibrida/data_hibrida_besar",
+            "hibrida_besar"     => $this->hikal->data_hibrida_besar(),
             "option_tanggal"    => $this->hikal->option_tanggal_hibrida_besar(),
             "option_bulan"      => $this->hikal->option_bulan_hibrida_besar(),
             "option_tahun"      => $this->hikal->option_tahun_hibrida_besar(),
@@ -25,7 +25,7 @@ class Hibrida extends CI_Controller
     public function kecil()
     {
         $data = [
-            "page" => "hibrida/data_hibrida_kecil",
+            "page"              => "hibrida/data_hibrida_kecil",
             "hibrida_kecil"     => $this->hikal->data_hibrida_kecil(),
             "option_tanggal"    => $this->hikal->option_tanggal_hibrida_kecil(),
             "option_bulan"      => $this->hikal->option_bulan_hibrida_kecil(),

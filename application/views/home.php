@@ -98,9 +98,6 @@
 <script type="text/javascript" src="<?php echo base_url('assets/Template/dist/js/highcharts-3d.js') ?>"></script>
 <script type="text/javascript" src="<?php echo base_url('assets/Template/dist/js/export-data.js'); ?>"></script>
 
-<!-- <?php include './assets/Template/dist/js/ajax_grafik.php'; ?> -->
-<!-- <?php include './assets/Template/dist/js/ajax_lokal.php'; ?> -->
-
 <script>
     var chart;
     var chart2;

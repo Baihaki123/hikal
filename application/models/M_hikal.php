@@ -282,7 +282,6 @@ class M_hikal extends CI_Model
         $this->db->from('tb_monitoring');
         $this->db->limit(5);
         $this->db->where('jenis="hibrida"');
-        // $this->db->where('ukuran="besar"');
         $this->db->order_by('id', 'desc');
         return $this->db->get()->result();
     }

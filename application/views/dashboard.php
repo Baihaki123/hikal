@@ -76,7 +76,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 	<div class="wrapper">
 
 		<header class="main-header">
-			<a href="index2.html" class="logo">
+			<a href="<?= base_url() ?>" class="logo">
 				<span class="logo-mini shine"><b>T</b>HL</span>
 				<span class="logo-lg shine"><b>HIKAL</b></span>
 			</a>
