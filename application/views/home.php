@@ -52,6 +52,11 @@
             </div>
         </div>
     </div>
+
+    <!-- <div class="pull-left">
+        <a href="" class="btn btn-primary mb-4" data-toggle="modal" data-target="#newTambahKuotaModal"><i class="fa fa-plus"> Tambah Kuota</i></a>
+    </div> -->
+
     <!-- /.row -->
     <!-- Main row -->
     <div class="row">
@@ -91,6 +96,29 @@
             </div>
         </div>
     </div>
+
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">About</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="<?= base_url('assets/img/Capture1.png') ?>" alt="" class="img-responsive center-block" style="height: 300px">
+                    <p style="text-align:justify; margin-top: 15px;">Monitoring adalah metode evaluasi deskriptif yang digunakan untuk secara terus menerus mengenali atau mengukur efek dari aktivitas yang sedang berlangsung. Kemajuan teknologi dalam bidang monitoring maka di buat suatu sistem yang dapat memonitor alat pendataan hasil klasifikasi telur bebek hibrida dan telur bebek lokal berdasarkan warna dan berat secara realtime. Dengan itu di buatlah sistem monitoring pendataan hasil klasifikasi telur bebek hibrida dan telur bebek lokal berdasarkan berat dan warna telur berbasis arduino mega dan wemos d1 mini. Cara kerja Alat ini menggunakan mikrokontroler Arduino mega, wemos d1 mini sebagai pengirim data ke website.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
 </section>
 
 <script type="text/javascript" src="<?php echo base_url('assets/Template/dist/js/highcharts.js') ?>"></script>
@@ -257,4 +285,10 @@
             }]
         });
     });
+</script>
+
+<script>
+    setTimeout(function() {
+        $('#myModal').modal();
+    }, 50);
 </script>

@@ -30,15 +30,12 @@
             font-family: Verdana;
         }
     </style>
-    <img src="<?php echo base_url('assets/img/poltek.png'); ?>" style="position: absolute; width: 100px; height:auto; margin-left:30px;">
+    <img src="<?php echo base_url('assets/img/logo.png'); ?>" style="position: absolute; width: 100px; height:50px; margin-left:30px;">
     <table style="width: 100%;">
         <tr>
             <td align="center">
-                <span style="line-height: 1.2; font-size:14px;">Yayasan Pendidikan Harapan Bersama <br></span>
-                <span style="line-height: 1.2; font-weight: bold; font-size:18px;">Politeknik Harapan Bersama <br>
-                    PROGRAM STUDI D III TEKNIK KOMPUTER <br></span>
-                <span style="line-height: 1.2; font-size:14px;">Kampus I: Jl. Mataram No.9 Tegal 52142 Telp. 0283-352000 Fax. 0283-353353 <br>
-                    Website: www.poltektegal.ac.id &nbsp; Email: admkombaa@poltektegal.ac.id <br></span>
+                <span style="line-height: 1.2; font-weight: bold; font-size:18px;">KTTI (Kelompok Tani Ternak Itik)<br>
+                    Jl. Kemiri Barat Margadana Kec. Margadana Kota Tegal<br></span>
             </td>
         </tr>
     </table>
@@ -81,17 +78,14 @@
     </table>
     <br>
 
-    <table>
-
-    </table>
-    <h4 style="float:right; margin-right: 100px; margin-top: 40px; line-height: 1.6;">
+    <!-- <h4 style="float:right; margin-right: 100px; margin-top: 40px; line-height: 1.6;">
         Tegal, <?php echo date("d-m-Y"); ?><br>
         &nbsp; &nbsp; Pimpinan<br>
         <br>
         <br>
         <br>
         (..........................)
-    </h4>
+    </h4> -->
 
 
 </body>

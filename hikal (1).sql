@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 07, 2022 at 06:52 AM
+-- Generation Time: Jul 12, 2022 at 04:28 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.4.24
 
@@ -41,13 +41,18 @@ CREATE TABLE `tb_monitoring` (
 
 INSERT INTO `tb_monitoring` (`id`, `jenis`, `berat`, `ukuran`, `waktu`) VALUES
 (1, 'hibrida', '30', 'besar', '2022-06-06 02:20:43'),
-(2, 'hibrida', '40', 'besar', '2022-06-06 02:20:43'),
-(3, 'hibrida', '20', 'kecil', '2022-06-06 02:21:12'),
-(4, 'hibrida', '25', 'kecil', '2022-06-06 02:21:12'),
-(5, 'lokal', '30', 'besar', '2022-06-06 02:21:48'),
-(6, 'lokal', '35', 'besar', '2022-06-06 02:23:14'),
-(7, 'lokal', '20', 'kecil', '2022-06-06 02:22:14'),
-(8, 'lokal', '26', 'kecil', '2022-06-06 02:22:14');
+(2, 'hibrida', '40', 'besar', '2022-06-08 02:20:43'),
+(3, 'hibrida', '35', 'besar', '2022-07-06 02:21:12'),
+(4, 'hibrida', '25', 'kecil', '2022-06-07 02:21:12'),
+(5, 'hibrida', '27', 'kecil', '2022-06-12 13:35:04'),
+(6, 'hibrida', '29', 'kecil', '2022-07-12 13:35:25'),
+(7, 'lokal', '40', 'besar', '2022-07-04 13:35:48'),
+(8, 'lokal', '36', 'besar', '2022-06-12 13:35:52'),
+(9, 'lokal', '35', 'besar', '2022-07-12 13:36:09'),
+(10, 'lokal', '27', 'kecil', '2022-06-10 13:34:30'),
+(13, 'lokal', '28', 'kecil', '2022-07-12 14:14:04'),
+(14, 'lokal', '27', 'kecil', '2022-07-12 14:23:42'),
+(15, 'haha', '12', 'haha', '2022-07-12 14:24:56');
 
 --
 -- Indexes for dumped tables
@@ -67,7 +72,7 @@ ALTER TABLE `tb_monitoring`
 -- AUTO_INCREMENT for table `tb_monitoring`
 --
 ALTER TABLE `tb_monitoring`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

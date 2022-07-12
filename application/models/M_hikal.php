@@ -30,6 +30,7 @@ class M_hikal extends CI_Model
         $this->db->select('*');
         $this->db->from('tb_monitoring');
         $this->db->where('ukuran="besar" and jenis="hibrida"');
+        $this->db->order_by('id', 'desc');
         $query = $this->db->get()->result();
         return $query;
     }
@@ -95,6 +96,7 @@ class M_hikal extends CI_Model
         $this->db->select('*');
         $this->db->from('tb_monitoring');
         $this->db->where('ukuran="kecil" and jenis="hibrida"');
+        $this->db->order_by('id', 'desc');
         $query = $this->db->get()->result();
         return $query;
     }
@@ -160,6 +162,7 @@ class M_hikal extends CI_Model
         $this->db->select('*');
         $this->db->from('tb_monitoring');
         $this->db->where('ukuran="besar" and jenis="lokal"');
+        $this->db->order_by('id', 'desc');
         $query = $this->db->get()->result();
         return $query;
     }
@@ -225,6 +228,7 @@ class M_hikal extends CI_Model
         $this->db->select('*');
         $this->db->from('tb_monitoring');
         $this->db->where('ukuran="kecil" and jenis="lokal"');
+        $this->db->order_by('id', 'desc');
         $query = $this->db->get()->result();
         return $query;
     }

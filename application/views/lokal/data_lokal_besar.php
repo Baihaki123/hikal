@@ -16,7 +16,7 @@
                 <div class="box-header with-border">
                     <h3 class="box-title">Data Rekap</h3><br><br>
 
-                    <?php echo form_open('Lokal/cetak_pdf_besar'); ?>
+                    <?php echo form_open('Lokal/cari_pdf_besar'); ?>
                     <div class="pull-right">
                         <div class="form-group row">
                             <label class="col-sm-1 control-label no-padding-right">Tanggal</label>
@@ -55,12 +55,21 @@
                                 </select>
                             </div>
                             <div class="col-md-2">
-                                <button type="submit" formtarget="_blank" class="btn btn-primary ml-3">
-                                    <i class="fa fa-print"></i> Print
+                                <button type="submit" class="btn btn-success" style="margin-right: 10px;">
+                                    <i class="fa fa-search"></i> Search
                                 </button>
                             </div>
                         </div>
                     </div>
+                    <?php echo form_close() ?>
+
+                    <?php echo form_open('Lokal/cetak_pdf_besar'); ?>
+                    <input type="hidden" value="<?= $tanggal; ?>" name="tanggal">
+                    <input type="hidden" value="<?= $bulan; ?>" name="bulan">
+                    <input type="hidden" value="<?= $tahun; ?>" name="tahun">
+                    <button type="submit" class="btn btn-primary" style="margin-right: 10px;">
+                        <i class="fa fa-print"></i> Print
+                    </button>
                     <?php echo form_close() ?>
                 </div>
                 <!-- /.box-header -->
